@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("uraniumbg2.jpg");
+    background-repeat: repeat;
+    background-color: #031704;
+    color: #ffffff;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.title {
+    font-size: 108px;
+    margin-bottom: 16px;
+    color: #77d887;
+    font-weight: bold;
+    text-shadow: 0 0 16px #77d887;
+}
+
+.subtitle {
+    font-size: 24px;
+    opacity: 0.8;
+    margin-bottom: 48px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 36px;
+}
+
+li:not(:first-child) {
+    padding-left: 0.7ch;
+}
+
+li:not(:first-child)::before {
+    content: '|';
+    display: inline-block;
+    margin-right: 0.7ch;
+    width: 16px;
+    text-align: center;
+    opacity: 0.1;
+    position: relative;
+
+}
+
+.social {
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: ease-out 200ms;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.social:hover {
+    color: #77d887;
+    text-shadow: 0 0 4px #77d887;
+}
