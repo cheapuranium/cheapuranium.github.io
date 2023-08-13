@@ -26,14 +26,17 @@ body {
 }
 
 .title {
-    font-size: 36px;
-    margin-bottom: 8px;
+    font-size: 108px;
+    margin-bottom: 16px;
+    color: #77d887;
+    font-weight: bold;
+    text-shadow: 0 0 16px #77d887;
 }
 
 .subtitle {
-    font-size: 8px;
+    font-size: 24px;
     opacity: 0.8;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 ul {
@@ -43,7 +46,7 @@ ul {
     list-style: none;
     margin: 0;
     margin-bottom: 4px;
-    font-size: 1em;
+    font-size: 36px;
 }
 
 li:not(:first-child) {
@@ -71,6 +74,6 @@ li:not(:first-child)::before {
 }
 
 .social:hover {
-    color: #42be4c;
-    text-shadow: 0 0 4px #42be4c;
+    color: #77d887;
+    text-shadow: 0 0 4px #77d887;
 }
