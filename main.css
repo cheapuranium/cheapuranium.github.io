@@ -3,6 +3,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: url("uraniumbg2.jpg");
+    background-repeat: repeat;
     background-color: #031704;
     color: #ffffff;
 }
@@ -28,7 +30,7 @@ body {
 .title {
     font-size: 108px;
     margin-bottom: 16px;
-    color: #77d887;
+    color: #0b180d;
     font-weight: bold;
     text-shadow: 0 0 16px #77d887;
 }
@@ -36,6 +38,13 @@ body {
 .subtitle {
     font-size: 24px;
     opacity: 0.8;
+    color: #cf971e;
+    margin-bottom: 48px;
+}
+
+.selfpromo {
+    font-size: 24px;
+    color: #260bbe;
     margin-bottom: 48px;
 }
 
